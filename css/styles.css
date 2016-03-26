@@ -1,0 +1,39 @@
+#home {
+  background-image: url(../img/fireworks.jpg);
+  height: 2000px;
+  background-size: cover;
+background-attachment: fixed;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-fixed-top {
+  margin: 0 15% !important;
+}
+.navButton a {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+26,60abf8+45,60abf8+53,60abf8+53,4096ee+100 */
+  background: #7abcff; /* Old browsers */
+  background: -moz-linear-gradient(top, #7abcff 26%, #60abf8 45%, #60abf8 53%, #60abf8 53%, #4096ee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7abcff 26%,#60abf8 45%,#60abf8 53%,#60abf8 53%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7abcff 26%,#60abf8 45%,#60abf8 53%,#60abf8 53%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+  color: #fff !important;
+  /*background-color: #155FA9;*/
+  margin: 10px 10px;
+  border-radius: 10px;
+  border: solid 3px #125CA6;
+}
+.current a {
+  color: #fff !important;
+  border: solid 5px #0B3968;
+  margin-top: 9px;
+}
+h1.logo {
+  font-size: 500px !important;
+  text-align: center;
+}
+.snippet {
+  background-color: white;
+  padding: 15px;
+}
