@@ -1,8 +1,8 @@
 #home {
-  background-image: url(../img/fireworks.jpg);
-  height: 2000px;
+  background-image: url(../img/landscape.jpg);
   background-size: cover;
-background-attachment: fixed;
+  background-attachment: fixed;
+  height: 1500px;
 }
 .navbar-default {
   background-color: transparent;
@@ -29,11 +29,53 @@ background-attachment: fixed;
   border: solid 5px #0B3968;
   margin-top: 9px;
 }
-h1.logo {
-  font-size: 500px !important;
-  text-align: center;
+.logo {
+  padding-left: 0px;
+  margin: 250px 0px 150px 200px;
+  width: 1189px;
+  background: linear-gradient(to right,#aad4ff,transparent);
+  border-radius: 10px;
+}
+.title {
+  color: #000;
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-size: 96px !important;
+  text-align: left;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-style: italic;
+}
+.subtitle {
+  color: #000;
+  font-family: 'Seaweed Script', cursive;
+  font-size: 64px;
+  text-align: left;
+  margin-left: 110px;
+  padding-bottom: 20px;
+  font-weight: bold;
 }
 .snippet {
+  /*height: 350px;*/
   background-color: white;
   padding: 15px;
+}
+.snippet h3 {
+  text-align: center;
+}
+.snippet img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 160px;
+}
+.snippet p {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  text-align: center;
 }
